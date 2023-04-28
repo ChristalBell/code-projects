@@ -1,19 +1,36 @@
+.logo{
+    padding: 4rem;
+}
+
 @font-face {
-    font-family: "Josefin Sans" ;
+    font-family: 'Josefin Sans' ;
     src: url("https://fonts.google.com/specimen/Josefin+Sans");
 }
 
 .container {
-    background-color:hsl(330,100%,100%);
+    /*background-color:hsl(330,100%,100%);*/
+    background-image:url(./images/bg-pattern-desktop.svg) ;
     display: flex;
     flex-direction: row;
-    font-family: Josefin Sans;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
-    padding: 50px; 
+    font-weight: 200;
+   align-items: center; 
    
 }
+
+/*.annoucement{
+   word-spacing: 4rem;
+   font-weight: 400;
+}*/
 
 p {
     color:hsl(0, 36%, 70%) ; 
 
+}
+
+#round-edges {
+    background-color: hsl(0, 36%, 70%);
+    border-radius: 2rem;
+    
 }
