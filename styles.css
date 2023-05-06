@@ -1,37 +1,37 @@
-.logo{
-    padding: 4rem;
-}
-
 @font-face {
     font-family: 'Josefin Sans' ;
     src: url("https://fonts.google.com/specimen/Josefin+Sans");
 }
-
 body{
     background-color:hsl(330,100%,100%);
-    background-image:url(./images/bg-pattern-desktop.svg) 
-}
-.container {
-    display: flex;
-    flex-direction: row;
+    background-image:url(./images/bg-pattern-desktop.svg);
+    color:hsl(0, 36%, 70%);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    align-items: center; 
-   
 }
 
+.container {
+    display: grid;
+    grid-template-rows: auto auto;
+    color:hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+h1{
+    color: black;
+}
 
 h1 span {
-    color:hsl(0, 36%, 70%);
-
+    color: hsl(0, 36%, 70%);
+    font-weight: 10;
+   
 }
 
 p {
     color:hsl(0, 36%, 70%) ;
     padding: .5rem;
-  
-
 }
 
 .round-edges {
@@ -40,8 +40,7 @@ p {
     border-radius: 10rem;
     padding: .25rem;
     
-    /*background-image:url(./images/icon-arrow.svg);*/
-    
+    /*background-image:url(./images/icon-arrow.svg);*/ 
 }
 
 form > input:focus {
