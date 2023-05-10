@@ -17,7 +17,7 @@
 <body>
 <div class=container >
     
-    <div id="container-right">
+    <div class="container-right">
         <img src="./images/logo.svg" alt="Hero Logo">
         <div>
             <h1><span>WE'RE </span><br>COMING<br>SOON</h1>
@@ -31,13 +31,18 @@
             </p>
          </div> 
         <div >
-        <form class="submitForm round-edges" >
-            <input type="email round-edges" placeholder="Email Address"/>
-            <input type="button round-edges" />
+        <form>
+            <input class="round-edges" type="email" id ="email" name= "email" placeholder = "Email Address" required >
+                <label for="email">
+                    <img src="./images/icon-error.svg" alt="">
+                </label>
+            <button type="submit"><img src="./images/icon-arrow.svg"></button> 
         </div>
+        </form>
+            <p class="error-message">Please provide a valid email</p>
     </div> 
 
-    <div id="container-left">
+    <div class="container-left">
         <div>
             <img src="./images/hero-desktop.jpg" alt="Hero Desktop">
         </div>
