@@ -49,15 +49,17 @@ p {
 
 
 form{
-    position: absolute;
     display: flex;
+    position: absolute;
+    width: auto;
+   
 }
 form input {
     border: 1px solid hsl(0, 6%, 24%);
     border-radius: 2rem;
     font-family: 'Josefin Sans';
     padding: .75rem 1rem;
-    width: 15rem;
+    width: auto;
      
 }
 
@@ -66,10 +68,10 @@ form input::placeholder{
 }
 
 form > input:focus {
-    border: 2px solid hsl(0, 93%, 68%);
+    border: 2px solid  hsl(0, 36%, 70%);
 }   
 
-button{
+.button{
     background-image: linear-gradient(
         135deg,
     hsl(0, 0%, 100%), 
@@ -80,15 +82,16 @@ button{
     box-shadow: 0px 8px 2.5px hsla(0, 36%, 70%, 25%);
     padding: .5rem 2rem; 
     transform: translateX(-60px);
-  
-    
-
 }
 
-.error-message{
+#error-message{
     color:hsl(0, 93%, 68%); 
     font-family: 'Josefin Sans';
     font-size: 10px;
-    padding-left: 1.5rem;
+    padding-left: .75rem;
+    padding-top: 2.5rem;
 }
 
+.error{ 
+    border: 1px solid hsl(0, 93%, 68%);
+}
