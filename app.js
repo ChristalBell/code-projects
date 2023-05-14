@@ -1,12 +1,8 @@
-const onClick = () => {
-    const validEmail = document.getElementById("email"); 
-}
+const email = document.getElementById ("email")
+const onSubmit = document.getElementById("onSubmit")
 
-const validEmail = (email) => {
-    if (email.value === ""){
-        return errorMessage.innerHTML = "please provide a valid email. " ;
-    } else {
-        return false ; 
-    }
-       
+const validateEmail = (email) => {
+    if (email === null ) {
+        return document.getElementById("errorMessage").innerHTML += "Please enter a valid email.";
+    } 
 }
