@@ -35,19 +35,21 @@
         <form>
             <input 
              class="round-edges"
-             id ="email" 
-             type="email" 
-             name= "email" 
-             placeholder = "Email Address" required 
+             id="email" 
+             type="text" 
+             name="email" 
+             placeholder="Email Address" required 
              />
-             <button 
-             type="submit" 
+             <input
              class="button"
-             onclick="validEmail()">
+             type="button"
+             value="submit" 
+             onclick="onSubmit()"
+             />
                 <img src="./images/icon-arrow.svg">
-            </button> 
+            </input> 
         </form>
-             <!-- <p id="error-message">Please provide a valid email</p>  -->
+           
         </div>
             
     </div> 

@@ -50,8 +50,8 @@ p {
 
 form{
     display: flex;
-    position: absolute;
-    width: auto;
+    
+    width: 100%;
    
 }
 form input {
@@ -59,7 +59,7 @@ form input {
     border-radius: 2rem;
     font-family: 'Josefin Sans';
     padding: .75rem 1rem;
-    width: auto;
+    width: 20rem;
      
 }
 
@@ -84,14 +84,6 @@ form > input:focus {
     transform: translateX(-60px);
 }
 
-#error-message{
-    color:hsl(0, 93%, 68%); 
-    font-family: 'Josefin Sans';
-    font-size: 10px;
-    padding-left: .75rem;
-    padding-top: 2.5rem;
-}
-
-.error{ 
-    border: 1px solid hsl(0, 93%, 68%);
+.error{
+    border: solid 2px red; 
 }
