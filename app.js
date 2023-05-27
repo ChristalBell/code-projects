@@ -5,6 +5,7 @@ onSubmit= () => {
         console.log ("Please enter a valid email.");
     }
     return  document.getElementById("error-message").innerHTML += "Please provide a valid email.";
+    
 }
 
 

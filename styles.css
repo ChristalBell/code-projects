@@ -14,7 +14,7 @@ body{
    column-gap: 6rem;
 }
 
-.container-right {
+.container-left {
     color:hsl(0, 36%, 70%);
     font-family: 'Josefin Sans', sans-serif;
     padding: 3rem;
@@ -85,8 +85,7 @@ form > input:focus {
 }
 
 .error{
-    border: solid 2px hsl(0, 93%, 68%)
-      
+    border: solid 2px hsl(0, 93%, 68%);
 }
 
 #error-message {
