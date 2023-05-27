@@ -85,10 +85,10 @@ form > input:focus {
 }
 
 .error{
-    border: solid 2px red;
+    border: solid 2px hsl(0, 93%, 68%)
       
 }
 
 #error-message {
-    color: red;
+    color:hsl(0, 93%, 68%);
 }
