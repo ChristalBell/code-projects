@@ -86,6 +86,7 @@ form > input:focus {
 
 .error{
     border: solid 2px hsl(0, 93%, 68%);
+    background-image: url(./images/icon-error.svg) no-repeat;
 }
 
 #error-message {
