@@ -4,7 +4,8 @@ onSubmit= () => {
         email.classList.add("error");
         console.log ("Please enter a valid email.");
     }
-    return  document.getElementById("error-message").innerHTML += "Please provide a valid email.";
+    return  document.getElementById("error-message").innerHTML += "Please provide a valid email.",
+    document.getElementById("email").value += "janeappleseed#email.com";
     
 }
 
