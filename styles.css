@@ -79,11 +79,14 @@ form > input:focus {
     );
     border: none;
     border-radius: 1.5rem;
-    box-shadow: 0px 8px 2.5px hsla(0, 36%, 70%, 25%);
-    padding: .5rem 2rem; 
-    transform: translateX(-60px);
+    box-shadow: 0px 15px 10px hsla(0, 36%, 70%, 40%);
+    transform: translateX(-50px);
+    width: 75px;
 }
-
+.submit-arrow{
+    transform: translateX(-90px);
+    
+}
 .error{
     border: solid 2px hsl(0, 93%, 68%);
     background-image: url(./images/icon-error.svg) no-repeat;
