@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Josefin Sans' ;
+    src: url ("https://fonts.google.com/specimen/Josefin+Sans");
+}
+
+body{
+    background: url(./images/bg-pattern-desktop.svg) no-repeat center/cover;
+    color:hsl(0, 36%, 70%);
+    font-family: 'Josefin Sans', sans-serif, serif;
+}
+
+.container {
+   display: flex; 
+   column-gap: 6rem;
+   
+   .container-left {
+       color:hsl(0, 36%, 70%);
+       font-family: 'Josefin Sans', sans-serif;
+       padding: 3rem;
+       padding-left: 5rem;
+   }
+   
+   p {
+       color:hsl(0, 36%, 70%) ;
+       font-size: 16px;
+       font-weight: 400bold;
+       line-height: 1.5rem; 
+       padding-bottom: 1rem;
+       
+   }
+
+   h1{
+       color: hsl(0, 6%, 24%);
+       letter-spacing: .75rem;
+       line-height: 2.25rem;
+       font-weight:600; 
+       padding-top: 3rem;
+   
+   
+       h1 span {
+           color: hsl(0, 36%, 70%);   
+           font-weight: 300;
+       }
+   }
+}
+
+.round-edges {
+    border: 1.5px solid hsl(0, 36%, 70%, 25%); 
+    border-radius: 2rem;
+}
+
+form{
+    display: flex;
+    width: 100%;
+   
+    form input {
+        border: 1px solid hsl(0, 6%, 24%);
+        border-radius: 2rem;
+        font-family: 'Josefin Sans';
+        padding: .75rem 1rem;
+        width: 20rem;
+        
+        &:placeholder{
+            color:hsl(0, 6%, 24%);
+        }
+        
+        &:focus {
+            border: 2px solid  hsl(0, 36%, 70%);
+        &.error{
+            border: solid 2px hsl(0, 93%, 68%);
+            background-image: url(./images/icon-error.svg) no-repeat;
+            }
+            
+         &#error-message {
+            color:hsl(0, 93%, 68%);
+            padding-left: 1.15rem;
+            }
+        }   
+
+    }
+
+    .button{
+        background-image: linear-gradient(
+            135deg,
+        hsl(0, 0%, 100%), 
+        hsl(0, 74%, 74%)
+        );
+        border: none;
+        border-radius: 1.5rem;
+        box-shadow: 0px 15px 10px hsla(0, 36%, 70%, 40%);
+        transform: translateX(-30px);
+        width: 75px;
+        
+        .submit-arrow{
+            padding:.75rem 0;
+            transform: translateX(-70px);
+            
+        }
+    }
+}
