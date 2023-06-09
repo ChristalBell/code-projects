@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Josefin Sans";
+  src: url "https://fonts.google.com/specimen/Josefin+Sans"; }
+body {
+  background: url(./images/bg-pattern-desktop.svg) no-repeat center/cover;
+  color: #ce9797;
+  font-family: 'Josefin Sans', sans-serif, serif; }
+
+.container {
+  display: flex;
+  column-gap: 6rem; }
+  .container .container-left {
+    color: #ce9797;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 3rem;
+    padding-left: 5rem; }
+  .container p {
+    color: #ce9797;
+    font-size: 16px;
+    font-weight: 400bold;
+    line-height: 1.5rem;
+    padding-bottom: 1rem; }
+  .container h1 {
+    color: #413a3a;
+    letter-spacing: .75rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    padding-top: 3rem; }
+    .container h1 h1 span {
+      color: #ce9797;
+      font-weight: 300; }
+
+.round-edges {
+  border: 1.5px solid 0, 36%, 70%, 25%;
+  border-radius: 2rem; }
+
+form {
+  display: flex;
+  width: 100%; }
+  form form input {
+    border: 1px solid #413a3a;
+    border-radius: 2rem;
+    font-family: 'Josefin Sans';
+    padding: .75rem 1rem;
+    width: 20rem; }
+    form form input:placeholder {
+      color: #413a3a; }
+    form form input:focus {
+      border: 2px solid #ce9797; }
+      form form input:focus.error {
+        border: solid 2px #f96262;
+        background-image: url(./images/icon-error.svg) no-repeat; }
+      form form input:focus#error-message {
+        color: #f96262;
+        padding-left: 1.15rem; }
+  form .button {
+    background-image: linear-gradient(135deg, white, #ee8c8c);
+    border: none;
+    border-radius: 1.5rem;
+    box-shadow: 0px 15px 10px rgba(206, 151, 151, 0.4);
+    transform: translateX(-30px);
+    width: 75px; }
+    form .button .submit-arrow {
+      padding: .75rem 0;
+      transform: translateX(-70px); }
+
+/*# sourceMappingURL=output.css.map */
